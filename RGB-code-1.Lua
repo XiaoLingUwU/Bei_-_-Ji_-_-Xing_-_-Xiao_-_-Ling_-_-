@@ -652,7 +652,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		UIHidden = true
 		OrionLib:MakeNotification({
 			Name = "北极星脚本中心:",
-			Content = "再见""..game.Players.LocalPlayer.Name..""我的朋友有机会回来看看啊",
+			Content = 再见兄弟&常来看看北极星啊",
 			Time = 5
 		})
 		WindowConfig.CloseCallback()
